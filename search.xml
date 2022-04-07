@@ -27,21 +27,19 @@
       <link href="/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/"/>
       <url>/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>为熟练Excel函数的使用，以及周报的制作流程，跟着b站<a href="https://space.bilibili.com/86758610?from=search&amp;seid=5349027012712608046&amp;spm_id_from=333.337.0.0">戴师兄</a>做了一个简单的自动化报表，展示某外卖平台每周的运营情况。<a href="post.md">源数据</a></p></blockquote><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>使用周报可以看到整周的数据总览，便于监控和发现问题。制作周表，首先要了解需要哪些指标，以及这些指标是如何统计核算的，然后要知道相关数据如何获取。</p><p class="note note-primary">标签</p><p><img src="/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/1.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>为熟练Excel函数的使用，以及周报的制作流程，跟着b站<a href="https://space.bilibili.com/86758610?from=search&amp;seid=5349027012712608046&amp;spm_id_from=333.337.0.0">戴师兄</a>做了一个简单的自动化报表，展示某外卖平台每周的运营情况。</p></blockquote><span id="more"></span><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>使用周报可以看到整周的数据总览，便于监控和发现问题。制作周表，首先要了解需要哪些指标，这些指标是如何统计核算的，以及相关数据如何获取。</p><p class="note note-primary">结果指标：GMV、商家实收、到手率、有效订单、无效订单、客单价<br>过程指标：曝光人数、进店人数、进店转化率、下单人数、下单转化率、营销占比<br>主要使用的函数：index、match、if、sumifs</p><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="1-搭建出周报的框架"><a href="#1-搭建出周报的框架" class="headerlink" title="1.搭建出周报的框架"></a>1.搭建出周报的框架</h3><h3 id="2-日期列"><a href="#2-日期列" class="headerlink" title="2.日期列"></a>2.日期列</h3><blockquote><p>完成日期填写，后续只需修改A13日期，其他日期自动更新</p></blockquote><p>手敲“2020-8-10”，使用公式=A13+1，再进行自动填充。相比直接使用自动填充的好处：当修改A13日期，后面日期跟着自动更新。<br><br><img src="/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/1.png"><br><img src="/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/2.png"><br>星期列=A13，将单元格格式设置为“周三”，再进行自动填充。<br><img src="/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/3.png"></p><h3 id="3-平台筛选器"><a href="#3-平台筛选器" class="headerlink" title="3.平台筛选器"></a>3.平台筛选器</h3><p>使用【数据验证】实现一个下拉筛选器<br><img src="/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/4.png"><br><img src="/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/5.png"></p><h3 id="4-求和列计算"><a href="#4-求和列计算" class="headerlink" title="4.求和列计算"></a>4.求和列计算</h3><p>如果平台筛选器为【全部】，只需根据日期条件求和，否则既需要考虑日期又要考虑平台是美团还是饿了么，根据日期和平台条件求和。<br>公式：<br>    <code>=IF()</code></p>]]></content>
       
       
       <categories>
           
+          <category> 学习 </category>
+          
           <category> 工具 </category>
+          
+          <category> excel </category>
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> Excel </tag>
-            
-        </tags>
       
     </entry>
     
