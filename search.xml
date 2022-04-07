@@ -27,12 +27,12 @@
       <link href="/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/"/>
       <url>/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/</url>
       
-        <content type="html"><![CDATA[<p>一、概述</p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>为熟练Excel函数的使用，以及周报的制作流程，跟着b站<a href="https://space.bilibili.com/86758610?from=search&amp;seid=5349027012712608046&amp;spm_id_from=333.337.0.0">戴师兄</a>做了一个简单的自动化报表，展示某外卖平台每周的运营情况。<a href="post.md">源数据</a></p></blockquote><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>使用周报可以看到整周的数据总览，便于监控和发现问题。制作周表，首先要了解需要哪些指标，以及这些指标是如何统计核算的，然后要知道相关数据如何获取。</p><p class="note note-primary">标签</p><p><img src="/2022/04/04/shi-yong-excel-zhi-zuo-zhou-bao/1.jpg"></p>]]></content>
       
       
       <categories>
           
-          <category> 数据分析 </category>
+          <category> 工具 </category>
           
       </categories>
       
